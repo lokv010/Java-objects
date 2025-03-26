@@ -1,4 +1,4 @@
-package ObjectsIntroductio;
+;
 public class Main {
 
     public static void main(String[] args) {
@@ -9,6 +9,9 @@ public class Main {
         Student student4 = new Student();
         student4.greeting();
         Student sample5 = new Student();
+        String str="stress"; 
+       //find the 1st non-repeating char in java//
+   
         //as we are coding in gitCodeSpace we have to intialize the samepl5 in order to initiate in the Studet(Student otherObjectReference)
         Student constructorOverloadingeExample= new Student(sample5);
         System.out.println(sample5.department);
